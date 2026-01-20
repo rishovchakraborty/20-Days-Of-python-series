@@ -49,3 +49,8 @@ print(keys)     # dict_keys(['key1', 'key2', 'key3', 'key4'])
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
+
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct.items())
+
+# dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3'), ('key4', 'value4')])
